@@ -7,5 +7,10 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <form action="/articles" method="POST">
+      Upload JSON:<br>
+      <textarea name="article" rows="4">Paste your json here</textarea>
+      <input type="submit" value="Submit">
+    </form>
   </body>
 </html>
